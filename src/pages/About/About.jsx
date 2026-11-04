@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AboutImage from "../../assets/img/A-PERFUM-about.png";
+import AboutImage from "../../assets/img/A-PERFUM-about.webp";
 import "./About.css";
 
 function About() {

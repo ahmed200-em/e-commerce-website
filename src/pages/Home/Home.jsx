@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProductCard from "../../components/ProductCard.jsx";
 import { products } from "../../utils/Product.js";
-import heroImage from "../../assets/img/A-PERFUM-hero.png";
+import heroImage from "../../assets/img/A-PERFUM-hero.webp";
 
 import "./Home.css";
 

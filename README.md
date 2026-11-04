@@ -12,17 +12,17 @@ The landing page introduces the store, highlights featured perfumes, and links v
 ### Shop
 Browse six fragrances with scent families, availability labels, prices in Moroccan dirhams (MAD), product details, and a Buy now action.
 
-![A-Perfum shop page](./src/assets/screenshots/localhost_5173_products.png)
+![A-Perfum shop page](./src/assets/screenshots/localhost_5173_products.webp)
 
 ### Our story
 Learn about the store’s approach to fragrance and explore the principles behind its curated collection.
 
-![A-Perfum about page](./src/assets/screenshots/localhost_5173_about.png)
+![A-Perfum about page](./src/assets/screenshots/localhost_5173_about.webp)
 
 ### Order online
 Enter contact details, choose a fragrance and bottle quantity, and review the estimated total before submitting the demo order form.
 
-![A-Perfum order page](./src/assets/screenshots/localhost_5173_order.png)
+![A-Perfum order page](./src/assets/screenshots/localhost_5173_order.webp)
 
 ## Store pages and features
 

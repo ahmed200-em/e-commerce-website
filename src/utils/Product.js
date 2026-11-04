@@ -1,9 +1,9 @@
-import perfumeImage1 from "../assets/img/perfume-1.png";
-import perfumeImage2 from "../assets/img/perfume-2.png";
-import perfumeImage3 from "../assets/img/perfume-3.png";
-import perfumeImage4 from "../assets/img/perfume-4.png";
-import perfumeImage5 from "../assets/img/perfume-5.png";
-import perfumeImage6 from "../assets/img/perfume-6.png";
+import perfumeImage1 from "../assets/img/perfume-1.webp";
+import perfumeImage2 from "../assets/img/perfume-2.webp";
+import perfumeImage4 from "../assets/img/perfume-4.webp";
+import perfumeImage3 from "../assets/img/perfume-3.webp";
+import perfumeImage5 from "../assets/img/perfume-5.webp";
+import perfumeImage6 from "../assets/img/perfume-6.webp";
 
 const products = [
   {
