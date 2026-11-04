@@ -1,0 +1,146 @@
+.order-page {
+  padding-block: 4.2rem 6rem;
+}
+.order-intro {
+  margin-bottom: 2.7rem;
+}
+.order-intro h1 {
+  font-size: clamp(3.5rem, 6vw, 5rem);
+}
+.order-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: start;
+}
+.order-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem;
+  border: 1px solid var(--line);
+  background: #faf9f5;
+}
+.field-label {
+  margin: 0.8rem 0 0.5rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+.order-form input,
+.order-form select {
+  width: 100%;
+  min-height: 48px;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid #d8ddd4;
+  border-radius: 3px;
+  outline: none;
+  color: var(--ink);
+  background: white;
+  font-size: 0.83rem;
+}
+.order-form input:focus,
+.order-form select:focus {
+  border-color: #829d4d;
+  box-shadow: 0 0 0 3px #d4ee7244;
+}
+.field-error {
+  margin-top: 0.35rem;
+  color: #a84939;
+  font-size: 0.73rem;
+}
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+  font-size: 0.82rem;
+}
+.order-total strong {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+}
+.submit-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.1rem;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  background: var(--ink);
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+.submit-order span {
+  color: var(--lime);
+}
+.success-message {
+  margin: 0.8rem 0 0;
+  color: #56762d;
+  font-size: 0.78rem;
+}
+.form-note {
+  margin: 0.85rem 0 0;
+  color: #818c82;
+  text-align: center;
+  font-size: 0.68rem;
+}
+.order-aside {
+  position: relative;
+  min-height: 390px;
+  padding: 2.5rem;
+  overflow: hidden;
+  background: #e8eadf;
+}
+.aside-mark {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+  color: #c2d292;
+  font-size: 5rem;
+}
+.order-aside h2 {
+  position: relative;
+  margin: 0.9rem 0;
+  font-family: var(--serif);
+  font-size: 2.6rem;
+  line-height: 1.05;
+  letter-spacing: -0.07em;
+}
+.order-aside h2 em {
+  color: #7e9d46;
+  font-style: normal;
+}
+.order-aside p {
+  position: relative;
+  max-width: 300px;
+  margin-bottom: 1.4rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.7;
+}
+.aside-footnote {
+  position: absolute;
+  bottom: 1.5rem;
+  color: #7e8d7e;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.59rem;
+}
+@media (max-width: 720px) {
+  .order-page {
+    width: calc(100% - 2.25rem);
+    padding-block: 3rem 4rem;
+  }
+  .order-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .order-aside {
+    min-height: 300px;
+    padding: 2rem;
+  }
+  .order-form {
+    padding: 1.2rem;
+  }
+}
