@@ -1,11 +1,16 @@
 .site-header {
   height: 76px;
+  margin: 0 4.5rem;
+  border-radius: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 max(calc((100vw - 1200px) / 2), 6.25vw);
   border-bottom: 1px solid var(--line);
-  background: var(--paper);
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+
 }
 .brand {
   display: inline-flex;
@@ -64,6 +69,9 @@
   border-radius: 4px;
   font-size: 0.82rem;
   font-weight: 700;
+  background: var(--ink);
+  color: white;
+  border-color: transparent;
 }
 .header-order span {
   color: #80a23e;
@@ -75,6 +83,8 @@
     flex-wrap: wrap;
     gap: 0.7rem;
     padding: 0.85rem 1.1rem;
+    justify-content: center;
+    margin: 0 1rem;
   }
   .main-nav {
     order: 3;

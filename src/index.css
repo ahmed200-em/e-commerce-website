@@ -11,8 +11,8 @@
   --muted: #766a70;
   --paper: #fbf8f3;
   --gold: #c9a45c;
-  --lime: #c9a45c; /* Keeps existing var(--lime) styles working */
-  --line: #e8e0d6;
+  --lime: #c9a45c; 
+  --line: gray;
   --serif: "Manrope", sans-serif;
 }
 * {
@@ -24,6 +24,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  background: var(--lime);
 }
 button,
 input,
@@ -49,3 +50,4 @@ button {
   color: var(--ink);
   background: var(--lime);
 }
+
