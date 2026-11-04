@@ -10,7 +10,7 @@
   position: sticky;
   top: 10px;
   z-index: 100;
-
+  background: #e8eadf;
 }
 .brand {
   display: inline-flex;
@@ -70,7 +70,7 @@
   font-size: 0.82rem;
   font-weight: 700;
   background: var(--ink);
-  color: white;
+  color: var(--gold);
   border-color: transparent;
 }
 .header-order span {
