@@ -5,7 +5,8 @@ import "./ProductCard.css";
 
 function ProductCard({ product }) {
   const navigate = useNavigate();
-  const { name, price, category, image, available, quantity, description } = product;
+  const { name, price, category, image, available, quantity, description } =
+    product;
 
   const showDetails = () =>
     window.alert(
@@ -21,7 +22,7 @@ function ProductCard({ product }) {
         onClick={showDetails}
         aria-label={`View details for ${name}`}
       >
-        <img src={image} alt={name} loading="lazy" />
+        <img src={image} alt={name} loading="lazy" decoding="async" />
         <span className={`availability ${available ? "in-stock" : "sold-out"}`}>
           {available ? "In stock" : "Sold out"}
         </span>

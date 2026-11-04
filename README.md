@@ -7,7 +7,7 @@ A-Perfum is a responsive perfume storefront concept for browsing a curated fragr
 ### Home
 The landing page introduces the store, highlights featured perfumes, and links visitors to the collection and brand story.
 
-![A-Perfum home page](./src/assets/screenshots/localhost_5173_.png)
+![A-Perfum home page](./src/assets/screenshots/localhost_5173_.webp)
 
 ### Shop
 Browse six fragrances with scent families, availability labels, prices in Moroccan dirhams (MAD), product details, and a Buy now action.
