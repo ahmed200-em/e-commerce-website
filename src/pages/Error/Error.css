@@ -1,0 +1,31 @@
+.not-found {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.not-found-symbol {
+  margin-bottom: 1rem;
+  color: #8aa64e;
+  font-size: 2rem;
+}
+.not-found h1 {
+  margin: 1rem 0;
+  font-family: var(--serif);
+  font-size: clamp(3rem, 7vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.07em;
+}
+.not-found h1 em {
+  color: #7e9d46;
+  font-style: normal;
+}
+.not-found p {
+  max-width: 380px;
+  margin: 0 0 1.5rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
